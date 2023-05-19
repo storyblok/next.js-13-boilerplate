@@ -1,5 +1,10 @@
 import { storyblokInit, apiPlugin} from "@storyblok/react/rsc"
-import StoryblokProvider from "@/components/StoryblokProvider"
+import StoryblokBridgeLoader from '@storyblok/react/bridge-loader'
+
+import Page from "@/components/Page"
+import Grid from "@/components/Grid"
+import Feature from "@/components/Feature"
+import Teaser from "@/components/Teaser"
 
 export const metadata = {
   title: 'Storyblok and Next.js 13',
@@ -7,16 +12,22 @@ export const metadata = {
 }
 
 storyblokInit({
-  accessToken: 'your-access-token',
-  use: [apiPlugin]
+  accessToken: 'ExrmykhjqnuEWjKBR4Nt1Att',
+  use: [apiPlugin],
+  components: {
+    feature: Feature,
+    grid: Grid,
+    page: Page,
+    teaser: Teaser
+  }
+
 })
 
 export default function RootLayout({ children }) {
   return (
-    <StoryblokProvider>
       <html lang="en">
         <body>{children}</body>
+        <StoryblokBridgeLoader options={{}} />
       </html>
-    </StoryblokProvider>
   )
 }

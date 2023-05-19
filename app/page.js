@@ -1,7 +1,7 @@
 import {
-  getStoryblokApi,
+  getStoryblokApi, StoryblokComponent
 } from "@storyblok/react/rsc";
-import StoryblokStory from "@storyblok/react/story";
+
 
 export default async function Home() {
   const { data } = await fetchData();
@@ -9,7 +9,7 @@ export default async function Home() {
   return (
     <div>
       <h1>Story: {data.story.id}</h1>
-      <StoryblokStory story={data.story} />
+      <StoryblokComponent blok={data.story.content} />
     </div>
   );
 }
