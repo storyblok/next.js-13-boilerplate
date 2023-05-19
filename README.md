@@ -10,7 +10,7 @@ To use this project you have to have a Storyblok account. If you don't have one 
 
 Read the [Next.js tutorial](https://www.storyblok.com/tp/add-a-headless-cms-to-next-js-13-in-5-minutes) about connecting Storyblok and Next.js.
 
-This repo has two branches. The [main](https://github.com/storyblok/next.js-13-boilerplate/tree/main) branch contains the code to configure Storyblok with Live Editing Support which is the default appraoch and the [full-server-side](https://github.com/storyblok/next.js-13-boilerplate/tree/full-server-side) bramch contains to code to configure Storyblok using full React Server Side Components. If you want to check the code for enabling live editing, please switch to main branch.
+This repo has two branches. The [main](https://github.com/storyblok/next.js-13-boilerplate/tree/main) branch contains the code to configure Storyblok with Live Editing Support which is the default appraoch and the [full-server-side](https://github.com/storyblok/next.js-13-boilerplate/tree/full-server-side) branch contains to code to configure Storyblok using full React Server Side Components. If you want to check the code for enabling live editing, please switch to main branch.
 
 ### 1. Clone the repo
 
