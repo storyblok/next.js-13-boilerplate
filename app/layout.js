@@ -12,7 +12,7 @@ export const metadata = {
 }
 
 storyblokInit({
-  accessToken: 'ExrmykhjqnuEWjKBR4Nt1Att',
+  accessToken: 'your-access-token',
   use: [apiPlugin],
   components: {
     feature: Feature,
