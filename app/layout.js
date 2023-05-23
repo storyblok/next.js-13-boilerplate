@@ -1,6 +1,8 @@
 import { storyblokInit, apiPlugin} from "@storyblok/react/rsc"
 import StoryblokBridgeLoader from '@storyblok/react/bridge-loader'
 
+import './globals.css';
+
 import Page from "@/components/Page"
 import Grid from "@/components/Grid"
 import Feature from "@/components/Feature"
@@ -12,7 +14,7 @@ export const metadata = {
 }
 
 storyblokInit({
-  accessToken: 'your-access-token',
+  accessToken: 'mZ9evZb6KS8LUhrtejLWtAtt',
   use: [apiPlugin],
   components: {
     feature: Feature,

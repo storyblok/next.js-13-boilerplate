@@ -8,7 +8,6 @@ export default async function Home() {
 
   return (
     <div>
-      <h1>Story: {data.story.id}</h1>
       <StoryblokComponent blok={data.story.content} />
     </div>
   );
