@@ -10,7 +10,7 @@ import Feature from "./Feature";
 
 /** 3. Initialize it as usual */
 storyblokInit({
-  accessToken: "your-access-token",
+  accessToken: "mZ9evZb6KS8LUhrtejLWtAtt",
   use: [apiPlugin],
   components: {
     teaser: Teaser,
