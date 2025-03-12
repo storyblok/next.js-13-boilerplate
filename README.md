@@ -1,3 +1,6 @@
+> [!WARNING]
+> This repository is outdated and we strongly suggest to follow the integration steps and the playgrounds on our official [React SDK](https://github.com/storyblok/storyblok-react).
+
 # Next.js 13 Storyblok Boilerplate
 
 This repository is a Next.js 13 [Storyblok](https://www.storyblok.com) starter template used in following [5 minute tutorial](https://www.storyblok.com/tp/add-a-headless-cms-to-next-js-13-in-5-minutes).
