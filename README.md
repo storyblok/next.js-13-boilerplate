@@ -1,3 +1,7 @@
+> [!WARNING]
+> This repository is no longer maintained.
+> For a current Next.js + Storyblok starter, use [blueprint-core-nextjs](https://github.com/storyblok/blueprint-core-nextjs).
+
 # Next.js 13 Storyblok Boilerplate
 
 This repository is a Next.js 13 [Storyblok](https://www.storyblok.com) starter template used in following [5 minute tutorial](https://www.storyblok.com/tp/add-a-headless-cms-to-next-js-13-in-5-minutes).
